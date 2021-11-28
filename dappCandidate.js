@@ -3,8 +3,7 @@
 const ssAddress = '0xb6161384cee287eB8f5F6e8a0da15b54B505D69F'
 // add contract ABI from Remix:
 
-const ssABI =
-[
+const ssABI = [
 	{
 		"inputs": [],
 		"stateMutability": "nonpayable",
@@ -505,7 +504,6 @@ const ssABI =
 		"type": "function"
 	}
 ]
-
 window.addEventListener('load', function () {
 	if (typeof window.ethereum !== 'undefined') {
 		console.log('window.ethereum is enabled')
