@@ -1,6 +1,6 @@
 // contract address on Ropsten:
 
-const ssAddress = '0xb6161384cee287eB8f5F6e8a0da15b54B505D69F'
+const ssAddress = '0x61a29d5eeD275057f50260BCc8cce3C460Bcb500'
 // add contract ABI from Remix:
 
 const ssABI = [
