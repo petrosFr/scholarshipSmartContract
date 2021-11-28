@@ -133,7 +133,7 @@
             placeholder="Scholarship name"></input><br />
           <div class="form-group" style="display:inline;">
             <div class="input-group">
-              <input id='scholarshipnumgranttxt' type="number" class="form-control input-lg" name="address"
+              <input id='scholarshipnumgranttxt' type="number" min="0" class="form-control input-lg" name="address"
                 placeholder="Number of seats"></input>
               <span class="input-group-btn">
                 <input id='addScholarship-btn' type="button" value="Submit" class="btn btn-primary btn-lg"></input>
@@ -146,7 +146,7 @@
       <div class="title_box">
         <div id="title">Create a whitelist</div>
         <form id="f1" role="form" class="inBox">
-          <input id='scholarshipId-inputText-whitelist' type="number" class="form-control input-lg" name="Sid"
+          <input id='scholarshipId-inputText-whitelist' type="number" min="0" class="form-control input-lg" name="Sid"
             placeholder="Scholarship Id"></input>
           <br />
           <div class="form-group" style="display:inline;">
@@ -167,7 +167,7 @@
         <form id="f1" role="form" class="inBox">
           <div class="form-group" style="display:inline;">
             <div class="input-group">
-              <input id='scholarshipId-inputText-deadline' type="number" class="form-control input-lg"
+              <input id='scholarshipId-inputText-deadline' type="number" min="0" class="form-control input-lg"
                 name="candidateName" placeholder="Scholarship Id"></input>
               <span class="input-group-btn">
                 <input id='deadline-btn' type="button" value="Submit" class="btn btn-primary btn-lg"></input>
@@ -184,7 +184,7 @@
         <form id="f1" role="form" class="inBox">
           <div class="form-group" style="display:inline;">
             <div class="input-group">
-              <input id='search-inputText' type="number" class="form-control input-lg" name="candidateName"
+              <input id='search-inputText' type="number" min="0" class="form-control input-lg" name="candidateName"
                 placeholder="Scholarship Id"></input>
               <span class="input-group-btn">
                 <input id='scholarshipSearch-btn' type="button" value="Submit" class="btn btn-primary btn-lg"></input>
@@ -198,17 +198,17 @@
         <div class="title_box">
           <div id="title">Student records</div>
           <form id="f1" role="form" class="inBox" style="height: 3cm;">
-            <input id='studentId-inputText-record' type="number" class="form-control input-lg" name="Sid"
+            <input id='studentId-inputText-record' type="number" min="0" class="form-control input-lg" name="Sid"
               placeholder="Student Id"></input><br />
             <td>
               <span style="float:left">
-                <input id='mark1-inputText-record' type="number" class="form-control input-lg" name="Sid"
+                <input id='mark1-inputText-record' type="number" min="0" class="form-control input-lg" name="Sid"
                   style="width: 180px;" placeholder="Mark1 (%)"></input>
               </span>
               <span style="float:right">
                 <div class="form-group" style="display:inline;">
                   <div class="input-group">
-                    <input id='mark2-inputText-record' type="number" class="form-control input-lg" name="candidateName"
+                    <input id='mark2-inputText-record' type="number" min="0" class="form-control input-lg" name="candidateName"
                       style="width: 200px;" placeholder="Mark2 (%)"></input>
                     <span class="input-group-btn">
                       <input id='studentRecord-btn' type="button" value="Submit" class="btn btn-primary btn-lg"></input>
